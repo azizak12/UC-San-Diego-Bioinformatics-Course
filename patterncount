@@ -1,0 +1,8 @@
+#Stepik Coding Challenge #1: Frequency of Codons/Segments in the Genome
+
+def PatternCount(Text, Pattern):
+	count = 0
+	for i = 0 to len(Text) - len(pattern):
+		if Text(i, len(Pattern)) = Pattern #if the k-mer substring of Text matches the pattern that we're looking for
+			count += 1
+	return count
